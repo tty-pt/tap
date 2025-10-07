@@ -11,9 +11,7 @@ class Libqsys < Formula
   version "0.0.11"
 
   def install
-    include.install Dir["include/*.h"] if Dir.exist?("include")
-    lib.install Dir["lib/*"] if Dir.exist?("lib")
-    bin.install Dir["bin/*"] if Dir.exist?("bin")
+    prefix.install Dir["*"]
   end
 
   test do
