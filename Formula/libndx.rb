@@ -2,7 +2,7 @@ class Libndx < Formula
   desc "libndx binary package"
   homepage "https://github.com/tty-pt/libndx"
   url "https://github.com/tty-pt/libndx/releases/download/v0.0.7/libndx-0.0.7.tar.gz"
-  sha256 "5508c65028761d35355b696f9357dd7e61b923c4923b8d68be73645b7d21ae46"
+  sha256 "d59ae944851fa4cd1526700549294a83fc3f269f421f6a1a1588c745b7c845b5"
   version "0.0.7"
   depends_on "libqmap"
 
