@@ -1,8 +1,8 @@
-class libqsys < Formula
+class Libqsys < Formula
   desc "libqsys binary package"
   homepage "https://github.com/tty-pt/libqsys"
   url "https://github.com/tty-pt/libqsys/releases/download/v0.0.11/libqsys-0.0.11.tar.gz"
-  sha256 "64c5d5cc798f1f49aada22a67c880ca6f46297a569ae1f2490109f32f7c89569"
+  sha256 "b6fd81eaa9366c5822578283a89738a19c99568f16203565c07f12f67309e232"
   version "0.0.11"
 
   def install
