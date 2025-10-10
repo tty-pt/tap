@@ -3,10 +3,10 @@ class Libgeo < Formula
   homepage "https://github.com/tty-pt/libgeo"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libgeo/releases/download/v0.0.5/libgeo-0.0.5-macos-arm64.tar.gz"
-    sha256 "2756bb3d612ea734ebb9e26bd057ee02044d47f3deeb4d19f8ab21d009a6ee17"
+    sha256 "0b077d35a5358f47c1c030277c32628772a08bb51a8fb5b62cff45607c7168a7"
   else
     url "https://github.com/tty-pt/libgeo/releases/download/v0.0.5/libgeo-0.0.5-macos-x86_64.tar.gz"
-    sha256 "596249dff6a5c513d326a00e1693ec4b5c2cea48a8aea8de89f605da84790e5e"
+    sha256 "8b251b51ba15e5cb445c925c4c49405bc184aa2015f000b93c14c358e5494f7a"
   end
   version "0.0.5"
   depends_on "libqdb"
