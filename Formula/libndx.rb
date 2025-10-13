@@ -3,12 +3,13 @@ class Libndx < Formula
   homepage "https://github.com/tty-pt/libndx"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libndx/releases/download/v0.0.7/libndx-0.0.7-macos-arm64.tar.gz"
-    sha256 "4881bfd4b054dd332c3fd99187503c966b9e3ced59249dffc1dac54a7f883054"
+    sha256 "e43f15ceff7f84ecf03488ed06a8d7e8b145aa80f67b9b39e9ad096ee61d8f25"
   else
     url "https://github.com/tty-pt/libndx/releases/download/v0.0.7/libndx-0.0.7-macos-x86_64.tar.gz"
-    sha256 "6743552231763aad170d4d257c9b3ed20ab13d7c698ecd119a478345ccc8a488"
+    sha256 "42284714cdb25c37716f64107ecc1d233bc1dda07ad198bb0d19a7a969cce58f"
   end
   version "0.0.7"
+  depends_on "libqmap"
 
   def install
     prefix.install Dir["*"]
