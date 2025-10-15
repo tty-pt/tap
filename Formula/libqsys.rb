@@ -3,10 +3,10 @@ class Libqsys < Formula
   homepage "https://github.com/tty-pt/libqsys"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libqsys/releases/download/v0.0.12/libqsys-0.0.12-brew-arm64.tar.gz"
-    sha256 "4451e7b25a96d7157b08bf3e77f2dcb7961b64b5cac999a9ba847cc9bce376be"
+    sha256 "452a180eb81841d95ebc73eb3ee8aed32cedf96247b14b1c217c98cbee3c5ab2"
   else
     url "https://github.com/tty-pt/libqsys/releases/download/v0.0.12/libqsys-0.0.12-brew-x86_64.tar.gz"
-    sha256 "4fca2b5851113de6cb621659870ff9629940859a8772523f7cf9a4afb92b6960"
+    sha256 "7c293990e5768d01e29890d18950f2e6793d075101e28541bc8191e252935157"
   end
   version "0.0.12"
 
