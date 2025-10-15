@@ -1,14 +1,16 @@
 class Libqmap < Formula
   desc "libqmap binary package"
-  homepage "https://github.com/tty-pt/xxHash"
+  homepage "https://github.com/tty-pt/libqmap"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/xxHash/releases/download/v0.8.3/libqmap-0.8.3-brew-arm64.tar.gz"
-    sha256 "a97cfc01cfdfdfef345790741dc55104033abf0df1d8493bea54ab5ec277e814"
+    url "https://github.com/tty-pt/libqmap/releases/download/v0.4.0/libqmap-0.4.0-brew-arm64.tar.gz"
+    sha256 "084a46b546b73b745375b1aecc53ea840d5de70381389ab6f0746a5fbeb3ae8d"
   else
-    url "https://github.com/tty-pt/xxHash/releases/download/v0.8.3/libqmap-0.8.3-brew-x86_64.tar.gz"
-    sha256 "8fd77ffd62f596cecec31dfd85f47fd398ba20d2bbfb80434ded3066b8497814"
+    url "https://github.com/tty-pt/libqmap/releases/download/v0.4.0/libqmap-0.4.0-brew-x86_64.tar.gz"
+    sha256 "9695ad87eabbc66ba054109ebfb2bfd8fab03b8968edd85873008f729b4d774e"
   end
-  version "0.8.3"
+  version "0.4.0"
+  depends_on "libqsys"
+  depends_on "xxhash"
 
   def install
     prefix.install Dir["*"]
