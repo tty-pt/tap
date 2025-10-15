@@ -2,13 +2,13 @@ class Libqdb < Formula
   desc "libqdb binary package"
   homepage "https://github.com/tty-pt/libqdb"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libqdb/releases/download/v0.4.1/libqdb-0.4.1-brew-arm64.tar.gz"
-    sha256 "b53f70abc8b8b9485133504c895a417fe9c5e16b1be67c2e3bdf04e7ee87f2f8"
+    url "https://github.com/tty-pt/libqdb/releases/download/v0.5.0/libqdb-0.5.0-brew-arm64.tar.gz"
+    sha256 "63105f0b454026754293e4a64185f7a0ef826f42352439fab9695742621fbe46"
   else
-    url "https://github.com/tty-pt/libqdb/releases/download/v0.4.1/libqdb-0.4.1-brew-x86_64.tar.gz"
-    sha256 "122c5fdae8c73d00a24a470f0acf3055da0e0ba4904ea73bb33bf565563ed0e0"
+    url "https://github.com/tty-pt/libqdb/releases/download/v0.5.0/libqdb-0.5.0-brew-x86_64.tar.gz"
+    sha256 "4bbec0d5c2802ca6300177328b6b8c55ce49c000c2b1aa448f919282b007744e"
   end
-  version "0.4.1"
+  version "0.5.0"
   depends_on "libqmap"
   depends_on "db"
 
