@@ -1,17 +1,17 @@
 class Libndc < Formula
   desc "libndc binary package"
-  homepage "https://github.com/tty-pt/fb-rpg"
+  homepage "https://github.com/tty-pt/libndc"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/fb-rpg/releases/download/v0.0.1/libndc-0.0.1-macos-arm64.tar.gz"
-    sha256 "ce442decbca9c7de0ba069d6696c3d7fedf747cb938d88932b70edf11ea711e9"
+    url "https://github.com/tty-pt/libndc/releases/download/v0.15.2/libndc-0.15.2-brew-arm64.tar.gz"
+    sha256 "b2188d8bfcc2d1bfd6f575379733bca113dd497c87a0bf2462aacf8cb3a010b0"
   else
-    url "https://github.com/tty-pt/fb-rpg/releases/download/v0.0.1/libndc-0.0.1-macos-x86_64.tar.gz"
-    sha256 "7c5c5aca6d20f306b6a2e891431475703af045daeb50a14fbfb1da8a5fae75af"
+    url "https://github.com/tty-pt/libndc/releases/download/v0.15.2/libndc-0.15.2-brew-x86_64.tar.gz"
+    sha256 "9a52b10e63bf8de537d8f22d0222033bcdf44fe381b709c4063e9a0fa88a6dad"
   end
-  version "0.0.1"
-  depends_on "libgeo"
-  depends_on "glfw"
-  depends_on "libpng"
+  version "0.15.2"
+  depends_on "libqmap"
+  depends_on "libndx"
+  depends_on "openssl"
 
   def install
     prefix.install Dir["*"]
