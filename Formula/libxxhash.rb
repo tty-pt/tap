@@ -3,10 +3,10 @@ class Libxxhash < Formula
   homepage "https://github.com/tty-pt/xxHash"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/xxHash/releases/download/v0.8.3/libxxhash-0.8.3-brew-arm64.tar.gz"
-    sha256 "b1cb31ff0b7ac3e85651902f20b1b00e3237e12dc3294f5b83b626cd21311907"
+    sha256 "cef4b53d98d8b2e013a31a5926b6ffee748f9ac08ab23ba490e6062e5431dbf6"
   else
     url "https://github.com/tty-pt/xxHash/releases/download/v0.8.3/libxxhash-0.8.3-brew-x86_64.tar.gz"
-    sha256 "81200407a1721b75712f820f903f3eaa1e45277e665f70286c083d2e9d0acfa5"
+    sha256 "461aa4279f36761bcff798720166711b13431a6cc8db6bfc13cf293882b99e13"
   end
   version "0.8.3"
 
