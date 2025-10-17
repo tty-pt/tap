@@ -3,10 +3,10 @@ class Fb-rpg < Formula
   homepage "https://github.com/tty-pt/fb-rpg"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/fb-rpg/releases/download/v0.0.1/fb-rpg-0.0.1-brew-arm64.tar.gz"
-    sha256 "d3f239550811a10d642529dbfbbd4036d7d9bcbb0d97229dd85426a7edad29ab"
+    sha256 "434c3ee54788f81af1376aa0444df40c9faae4ec6fa45f6ec45f314842acfa5d"
   else
     url "https://github.com/tty-pt/fb-rpg/releases/download/v0.0.1/fb-rpg-0.0.1-brew-x86_64.tar.gz"
-    sha256 "1201ee6097cad47d75295d1fbcdf344d72d5bf71df76dbbc3d234b2bd07406e2"
+    sha256 "05b7be89ba679e6f5143f5119a9213d52655b3507e0ec1f8b99abaea9d3b7f40"
   end
   version "0.0.1"
   depends_on "libgeo"
