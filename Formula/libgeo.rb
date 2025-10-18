@@ -3,10 +3,10 @@ class Libgeo < Formula
   homepage "https://github.com/tty-pt/libgeo"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libgeo/releases/download/v0.1.0/libgeo-0.1.0-brew-arm64.tar.gz"
-    sha256 "e3c17e10dfaf44c3d14069ce5739e6ad4935f13d37f6e20ba53be33bc4004f84"
+    sha256 "7e9f9fcb124d335dc002b2b10c0711c0cc6fd2e0a769bedee69d2eb486f3dfb9"
   else
     url "https://github.com/tty-pt/libgeo/releases/download/v0.1.0/libgeo-0.1.0-brew-x86_64.tar.gz"
-    sha256 "1d7bd29fa9d6d31a3b592860059e551e72d2760792787df89e56c867228ef527"
+    sha256 "5e2b1a24cf75dce7d9d65a0a99265a91f31b5f25e05c3aa1f318461f4351cb30"
   end
   version "0.1.0"
   depends_on "libqmap"
