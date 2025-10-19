@@ -3,10 +3,10 @@ class Libqdb < Formula
   homepage "https://github.com/tty-pt/libqdb"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libqdb/releases/download/v0.5.0/libqdb-0.5.0-brew-arm64.tar.gz"
-    sha256 "509ab77866c4537adb80072c65aa2daedc1a498745fba6c54fdca15128ef70dd"
+    sha256 "4a23deae9104f80f64bfe161dea1ab937f7e67e45d7d5199727b701d1e7ad3be"
   else
     url "https://github.com/tty-pt/libqdb/releases/download/v0.5.0/libqdb-0.5.0-brew-x86_64.tar.gz"
-    sha256 "96fa8425574aa4bf4c5d27eb948fc22ee71b214c6a0150f7c33a297361c4379f"
+    sha256 "9009a1c74dc15cf07f581fd990bee621b826eb04b5211bf50af83b161d3f4463"
   end
   version "0.5.0"
   depends_on "libqmap"
