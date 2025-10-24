@@ -3,10 +3,10 @@ class Libqmap < Formula
   homepage "https://github.com/tty-pt/libqmap"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libqmap/releases/download/v0.5.0/libqmap-0.5.0-brew-arm64.tar.gz"
-    sha256 "c3f81a72913b06879434ca930d4ece053e37b09d9da5fe05415b40be797beca1"
+    sha256 "1219b6c0b79ea85b1acd2cf930453c53ea15677b9637df5b3d421da925bb4922"
   else
     url "https://github.com/tty-pt/libqmap/releases/download/v0.5.0/libqmap-0.5.0-brew-x86_64.tar.gz"
-    sha256 "bd4759cd9daaefe89981f4d2eef51205839073652392eaae634f51e3a04d943f"
+    sha256 "fb51b8545ef2b25f29c434e630e42d5b82b7eecc8db34b1e8c48d9eb51461b9e"
   end
   version "0.5.0"
   depends_on "libqsys"
