@@ -2,13 +2,13 @@ class Libndx < Formula
   desc "libndx binary package"
   homepage "https://github.com/tty-pt/libndx"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libndx/releases/download/v0.1.0/libndx-0.1.0-brew-arm64.tar.gz"
-    sha256 "853aba8adab65e826a5e1db1bbd5d962bc931cfe815f303bb362fc5b3b0a21fa"
+    url "https://github.com/tty-pt/libndx/releases/download/v0.1.1/libndx-0.1.1-brew-arm64.tar.gz"
+    sha256 "9ecefe25dc53b6c179590fe1ffbf1569720ad7736745db3acad693a5ade32b1a"
   else
-    url "https://github.com/tty-pt/libndx/releases/download/v0.1.0/libndx-0.1.0-brew-x86_64.tar.gz"
-    sha256 "feee16ff4f2145ea3e0a4d9aedb5cfc76c30e81db8c78cc39b3a91cca21e8043"
+    url "https://github.com/tty-pt/libndx/releases/download/v0.1.1/libndx-0.1.1-brew-x86_64.tar.gz"
+    sha256 "3271925fd1b9a96fff741f3c81d00113c6f80c673b9a2d333dfe9323fee9e394"
   end
-  version "0.1.0"
+  version "0.1.1"
   depends_on "libqmap"
 
   def install
