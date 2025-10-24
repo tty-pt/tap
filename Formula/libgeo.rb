@@ -2,13 +2,13 @@ class Libgeo < Formula
   desc "libgeo binary package"
   homepage "https://github.com/tty-pt/libgeo"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libgeo/releases/download/v0.1.1/libgeo-0.1.1-brew-arm64.tar.gz"
-    sha256 "4133e5e2cf775a92948f750ebee8a51188e7c0a424bc5b3884642a9c165a65b9"
+    url "https://github.com/tty-pt/libgeo/releases/download/v0.2.0/libgeo-0.2.0-brew-arm64.tar.gz"
+    sha256 "5131c7bbb0084706f06007c22c5cbe7e4c42630bee1a46a1f8b814c8ca7d0120"
   else
-    url "https://github.com/tty-pt/libgeo/releases/download/v0.1.1/libgeo-0.1.1-brew-x86_64.tar.gz"
-    sha256 "0f8ffd6a84ff06e9946bd694fe3cf0c65e82bd5d8b4d59aecbebe5acabc15169"
+    url "https://github.com/tty-pt/libgeo/releases/download/v0.2.0/libgeo-0.2.0-brew-x86_64.tar.gz"
+    sha256 "b064e78cc893ea638f070ebf228d49ded8326a5c5e663063f793e93a33b03219"
   end
-  version "0.1.1"
+  version "0.2.0"
   depends_on "libqmap"
 
   def install
