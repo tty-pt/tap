@@ -3,10 +3,10 @@ class Libqgl < Formula
   homepage "https://github.com/tty-pt/libqgl"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libqgl/releases/download/v0.0.2/libqgl-0.0.2-brew-arm64.tar.gz"
-    sha256 "f4d5d61e12d2ba20e1daf2061a182f4d6ed8adcb28a2121ac10983c2c32a1372"
+    sha256 "0bb29d724ce82b673e1c6429dcd490ab61bdfa39ba026220644269e659e2a5b1"
   else
     url "https://github.com/tty-pt/libqgl/releases/download/v0.0.2/libqgl-0.0.2-brew-x86_64.tar.gz"
-    sha256 "d9ddd725d760e306e29931ba19fecf146b9893c63f8066ae56889ee06f887351"
+    sha256 "243defb6d5ae9ab6ee88dab2e0d99b7ef83afb5a9f2b379f013c2d2167f0c7ca"
   end
   version "0.0.2"
   depends_on "libqmap"
