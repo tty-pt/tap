@@ -3,13 +3,16 @@ class Libqllm < Formula
   homepage "https://github.com/tty-pt/libqllm"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libqllm/releases/download/v0.0.1/libqllm-0.0.1-brew-arm64.tar.gz"
-    sha256 "05be811f0b1789bbd16a16ba70627c1c232370e597afab81200705ad45de4cc2"
+    sha256 "09cd06d34312ec561965bff1b202693e25410e751f2374886d7e3815710f5c62"
   else
     url "https://github.com/tty-pt/libqllm/releases/download/v0.0.1/libqllm-0.0.1-brew-x86_64.tar.gz"
-    sha256 "61668d56d72060485ea88ae7f74df6cc0d6225210061f629f09314a00381bb92"
+    sha256 "6c13543dbdbabd36ce5f04bf64d6e29317bacfe6e62dc83aea727bfb30fe737e"
   end
   version "0.0.1"
+  depends_on "libqsys"
+  depends_on "libqmap"
   depends_on "cmake"
+  depends_on "libomp"
 
   def install
     prefix.install Dir["*"]
