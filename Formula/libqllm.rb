@@ -3,10 +3,10 @@ class Libqllm < Formula
   homepage "https://github.com/tty-pt/libqllm"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libqllm/releases/download/v0.0.1/libqllm-0.0.1-brew-arm64.tar.gz"
-    sha256 "198375f28fd0b51fc3004390405a7c1d8554981c4420c8868527f22c91f9765b"
+    sha256 "97514fea02513654e6152dc8209408c56a75181c6defabfa763ef3a6c0d0ff43"
   else
     url "https://github.com/tty-pt/libqllm/releases/download/v0.0.1/libqllm-0.0.1-brew-x86_64.tar.gz"
-    sha256 "d1af4421d32edf65b95ee5db9817bfc6985af143631efe5bbee6d26717241324"
+    sha256 "5ff2a9756f4231c8ff9fc7f03a40d59c66b053c423ae97e326bafd993fe34497"
   end
   version "0.0.1"
   depends_on "libqsys"
