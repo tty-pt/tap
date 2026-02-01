@@ -2,13 +2,13 @@ class Libndc < Formula
   desc "libndc binary package"
   homepage "https://github.com/tty-pt/libndc"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libndc/releases/download/v0.18.1/libndc-0.18.1-brew-arm64.tar.gz"
-    sha256 "db2f8d8c2af341af4e9e909215c859692c41871204584be76c55868d45d7c9e9"
+    url "https://github.com/tty-pt/libndc/releases/download/v0.18.3/libndc-0.18.3-brew-arm64.tar.gz"
+    sha256 "0c481b6783db3814f800119f2e3b329696afd4c930ed7e07610d9eb7fa0d42ef"
   else
-    url "https://github.com/tty-pt/libndc/releases/download/v0.18.1/libndc-0.18.1-brew-x86_64.tar.gz"
-    sha256 "dcfc45777c8058b22c01f412737c2fb141dcf8372e27b4491dfefc1a7fb15460"
+    url "https://github.com/tty-pt/libndc/releases/download/v0.18.3/libndc-0.18.3-brew-x86_64.tar.gz"
+    sha256 "1542d925c7c73a5ddf3e3311f08b4586014cea0de58c097de79a76c8cf7d0065"
   end
-  version "0.18.1"
+  version "0.18.3"
   depends_on "libqmap"
   depends_on "libndx"
   depends_on "openssl"
