@@ -2,13 +2,13 @@ class Libit < Formula
   desc "libit binary package"
   homepage "https://github.com/tty-pt/libit"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libit/releases/download/v1.2.1/libit-1.2.1-brew-arm64.tar.gz"
-    sha256 "9d7eeffa25203d63075ad0058ec0780fdb51ed00bb8c629d8b0a58b8b736f93e"
+    url "https://github.com/tty-pt/libit/releases/download/v1.2.0/libit-1.2.0-brew-arm64.tar.gz"
+    sha256 "bd4f2b0be39cad912aca4fc08e7c230eb8ad03da3d8a510754af709c0356b168"
   else
-    url "https://github.com/tty-pt/libit/releases/download/v1.2.1/libit-1.2.1-brew-x86_64.tar.gz"
-    sha256 "073ae3cc345ba61b70371d3d84d0738f10d3a91abdd06449ee2ad8fa5ac08807"
+    url "https://github.com/tty-pt/libit/releases/download/v1.2.0/libit-1.2.0-brew-x86_64.tar.gz"
+    sha256 "03767216d8f2b2c325b56fc778e98ae0d126c75c9a931b6092d0b69fe82caa82"
   end
-  version "1.2.1"
+  version "1.2.0"
   depends_on "libqmap"
 
   def install
