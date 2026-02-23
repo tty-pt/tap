@@ -3,10 +3,10 @@ class Libndc < Formula
   homepage "https://github.com/tty-pt/libndc"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libndc/releases/download/v1.0.0/libndc-1.0.0-brew-arm64.tar.gz"
-    sha256 "31234015e1c4472fd2b654cfbd86ad60e4c94bc05e801e1c22412a1bfc8c13d8"
+    sha256 "578e2dfe2faee25fd19d4b626006ae4c873f1779e6b831d673191fb333978192"
   else
     url "https://github.com/tty-pt/libndc/releases/download/v1.0.0/libndc-1.0.0-brew-x86_64.tar.gz"
-    sha256 "8ae392395b6031cdcdccda329716df3ff5c5caf1a0ebdf277ef8efd1f7a03fae"
+    sha256 "17eaa49752437e70db76e78a323fc908711f314ab386274b5becdba44ea0a510"
   end
   version "1.0.0"
   depends_on "libqmap"
