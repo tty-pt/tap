@@ -3,10 +3,10 @@ class Libit < Formula
   homepage "https://github.com/tty-pt/libit"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libit/releases/download/v1.2.1/libit-1.2.1-brew-arm64.tar.gz"
-    sha256 "5b6586153873724bf554fe83e6c179b1da1a509515d4bd58b1f23d4e8492fc76"
+    sha256 "14cbd3bcf266b8e6540ab97913cdeb0af6faef0c642c5b27048379f831ed9e40"
   else
     url "https://github.com/tty-pt/libit/releases/download/v1.2.1/libit-1.2.1-brew-x86_64.tar.gz"
-    sha256 "70fb86a45758f9abe3e101a015931ce705bf0b6e24074d482ccb3659f0c63b67"
+    sha256 "456c195709fee76cbef2212b3f89e2eba8e911ed95bb59fafd2ae61210096667"
   end
   version "1.2.1"
   depends_on "libqmap"
