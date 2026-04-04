@@ -3,10 +3,10 @@ class Libndx < Formula
   homepage "https://github.com/tty-pt/libndx"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libndx/releases/download/v0.2.0/libndx-0.2.0-brew-arm64.tar.gz"
-    sha256 "b56edefb15d7ee004b98ecdbe2a2b025e7465c35cd9b18ee20cb826bc29adb66"
+    sha256 "02601629d637de33451e840a8d4be294667ec74db4426f0df10786740125b6e4"
   else
     url "https://github.com/tty-pt/libndx/releases/download/v0.2.0/libndx-0.2.0-brew-x86_64.tar.gz"
-    sha256 "2a9efb2e5bc6c15d440422991b6c4b2a47529d7568139577062b0042076e5588"
+    sha256 "3f81b68e8bacd16ebeb0c88c1130cd017e1d5032c1e5a61d17dc9e77499858ec"
   end
   version "0.2.0"
   depends_on "libqmap"
