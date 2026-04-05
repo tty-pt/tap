@@ -2,13 +2,13 @@ class Libgeo < Formula
   desc "libgeo binary package"
   homepage "https://github.com/tty-pt/libgeo"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libgeo/releases/download/v0.4.2/libgeo-0.4.2-brew-arm64.tar.gz"
-    sha256 "7e8ba508ca63bf4f2825f3ef50e9d08c20a5f76d5ac54f9ac32d906e7e6e633e"
+    url "https://github.com/tty-pt/libgeo/releases/download/v0.4.3/libgeo-0.4.3-brew-arm64.tar.gz"
+    sha256 "5fa107f248cd029d48f7dd4f3176957693e68673f9ea72399797b303247f603c"
   else
-    url "https://github.com/tty-pt/libgeo/releases/download/v0.4.2/libgeo-0.4.2-brew-x86_64.tar.gz"
-    sha256 "c8231da4dfbe80a58499649739e44c1d24be3320addaed211bf952c1137ee7c5"
+    url "https://github.com/tty-pt/libgeo/releases/download/v0.4.3/libgeo-0.4.3-brew-x86_64.tar.gz"
+    sha256 "c534a9980051e06740b3b2fcabaef49fc3cb04c1db789ba5166ff58ec701fdfe"
   end
-  version "0.4.2"
+  version "0.4.3"
   depends_on "libqsys"
   depends_on "libqmap"
   depends_on "xxhash"
