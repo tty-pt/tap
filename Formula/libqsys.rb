@@ -2,13 +2,13 @@ class Libqsys < Formula
   desc "libqsys binary package"
   homepage "https://github.com/tty-pt/libqsys"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libqsys/releases/download/v1.0.0/libqsys-1.0.0-brew-arm64.tar.gz"
-    sha256 "767e172cf80941b72a7db16ccc9b447beb11436aecd7de08c666ace46652af0a"
+    url "https://github.com/tty-pt/libqsys/releases/download/v1.0.1/libqsys-1.0.1-brew-arm64.tar.gz"
+    sha256 "1de662f506de749c4f44dbfeb79486e00d505d7338e5c9783947b8ec43e7acd5"
   else
-    url "https://github.com/tty-pt/libqsys/releases/download/v1.0.0/libqsys-1.0.0-brew-x86_64.tar.gz"
-    sha256 "2b5d46752622b97e04a4775f9c27ffcf84b3a7057032e941bdc7cbcaab7d145c"
+    url "https://github.com/tty-pt/libqsys/releases/download/v1.0.1/libqsys-1.0.1-brew-x86_64.tar.gz"
+    sha256 "72d5d0d6c0ff44bc8c5029880fee035a54b0293343cbaf1282ce99a7a74503b2"
   end
-  version "1.0.0"
+  version "1.0.1"
 
   def install
     prefix.install Dir["*"]
