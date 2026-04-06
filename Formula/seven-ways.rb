@@ -2,13 +2,13 @@ class Seven-ways < Formula
   desc "seven-ways binary package"
   homepage "https://github.com/tty-pt/seven-ways"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/seven-ways/releases/download/v1.0.9/seven-ways-1.0.9-brew-arm64.tar.gz"
-    sha256 "bde7be7c2a1ec6545e15a29eaf8b4303ca829d080fba9e7c4309376f721a668d"
+    url "https://github.com/tty-pt/seven-ways/releases/download/v1.1.0/seven-ways-1.1.0-brew-arm64.tar.gz"
+    sha256 "9446abdc992262364f5686299aaa830fc9f7b62674f4bdc35024d8e5478982a2"
   else
-    url "https://github.com/tty-pt/seven-ways/releases/download/v1.0.9/seven-ways-1.0.9-brew-x86_64.tar.gz"
-    sha256 "ec1fe576e816d21b2f7893776be21acda0179a3b36024a28bbb437aba65f824d"
+    url "https://github.com/tty-pt/seven-ways/releases/download/v1.1.0/seven-ways-1.1.0-brew-x86_64.tar.gz"
+    sha256 "96984005f10d424e919b75cc6cfb08f2773bee6c6a7d5ed3772ca9870557ba8d"
   end
-  version "1.0.9"
+  version "1.1.0"
   depends_on "libgeo"
   depends_on "libqgl"
 
