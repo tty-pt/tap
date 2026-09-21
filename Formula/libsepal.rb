@@ -3,10 +3,10 @@ class Libsepal < Formula
   homepage "https://github.com/tty-pt/libsepal"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libsepal/releases/download/v1.0.0/libsepal-1.0.0-brew-arm64.tar.gz"
-    sha256 "a4c6cf31b74134592b7fde8d09214048b8b7a5c80e45dc057f0b9e4667f06b4f"
+    sha256 "ec7cdc090a2ccd92f140fcdd92b92edba7bd34e7f34996db8beae05e8c0e5da9"
   else
     url "https://github.com/tty-pt/libsepal/releases/download/v1.0.0/libsepal-1.0.0-brew-x86_64.tar.gz"
-    sha256 "7085a0ecdde13951115f0dbce43d2436bc64b839631ee0120c971e819e6e288d"
+    sha256 "db61f5c7cc98e99826c26256b75701a639d215fefd89410c525ebf7cc7e894d1"
   end
   version "1.0.0"
   depends_on "libqmap"
