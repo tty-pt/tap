@@ -2,13 +2,13 @@ class Libqmap < Formula
   desc "libqmap binary package"
   homepage "https://github.com/tty-pt/libqmap"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libqmap/releases/download/v1.3.1/libqmap-1.3.1-brew-arm64.tar.gz"
-    sha256 "eae3176e83d0b51fecc7ca7e4ea9ef281620fe4c606ff367ed1f70d53c0e7aba"
+    url "https://github.com/tty-pt/libqmap/releases/download/v1.4.0/libqmap-1.4.0-brew-arm64.tar.gz"
+    sha256 "79cb848bd6331e04dd329b02492a4a95f3ffa3e5c844a1683f3edf4184dd75b5"
   else
-    url "https://github.com/tty-pt/libqmap/releases/download/v1.3.1/libqmap-1.3.1-brew-x86_64.tar.gz"
-    sha256 "58fa4881ee647dff906f74b18006563e0648afb1907cc0caba5cdb89383a31b3"
+    url "https://github.com/tty-pt/libqmap/releases/download/v1.4.0/libqmap-1.4.0-brew-x86_64.tar.gz"
+    sha256 "7265e8f2c62bb1c6d5362724ddfdcef2fcd2386aa7dfb8bfdc4ae16e0cfba4ed"
   end
-  version "1.3.1"
+  version "1.4.0"
   depends_on "libqsys"
   depends_on "xxhash"
 
