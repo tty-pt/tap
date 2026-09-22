@@ -3,10 +3,10 @@ class LibhyleSource < Formula
   homepage "https://github.com/tty-pt/libhyle-source"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libhyle-source/releases/download/v1.0.0/libhyle-source-1.0.0-brew-arm64.tar.gz"
-    sha256 "fa8fd135de48d645512452dcf4974642b840a119286bbb8b18aa79ac2ac088a3"
+    sha256 "08ca7bb190ce7bc8e83c9a1ec6bf0de88b54d6eb47098d56e908eb8c0790a2f8"
   else
     url "https://github.com/tty-pt/libhyle-source/releases/download/v1.0.0/libhyle-source-1.0.0-brew-x86_64.tar.gz"
-    sha256 "506287393c570f1f99ac4f9069df7ca0c3281523ec7e1faf9a349dce6d6d9e60"
+    sha256 "360212bbae260f7e9cda8457bdeff326a61b6df5dc07d4d65b937f6662a62182"
   end
   version "1.0.0"
   depends_on "libqsys"
