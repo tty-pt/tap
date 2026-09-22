@@ -1,4 +1,4 @@
-class Seven-ways < Formula
+class SevenWays < Formula
   desc "seven-ways binary package"
   homepage "https://github.com/tty-pt/seven-ways"
   if Hardware::CPU.arm?

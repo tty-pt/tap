@@ -1,4 +1,4 @@
-class Ndc-tty < Formula
+class NdcTty < Formula
   desc "ndc-tty binary package"
   homepage "https://github.com/tty-pt/ndc-tty"
   if Hardware::CPU.arm?

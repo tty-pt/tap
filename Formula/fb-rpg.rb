@@ -1,4 +1,4 @@
-class Fb-rpg < Formula
+class FbRpg < Formula
   desc "fb-rpg binary package"
   homepage "https://github.com/tty-pt/fb-rpg"
   if Hardware::CPU.arm?

@@ -1,4 +1,4 @@
-class Ndc-auth < Formula
+class NdcAuth < Formula
   desc "ndc-auth binary package"
   homepage "https://github.com/tty-pt/ndc-auth"
   if Hardware::CPU.arm?
