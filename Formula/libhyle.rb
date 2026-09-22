@@ -2,13 +2,13 @@ class Libhyle < Formula
   desc "libhyle binary package"
   homepage "https://github.com/tty-pt/libhyle"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libhyle/releases/download/v1.2.0/libhyle-1.2.0-brew-arm64.tar.gz"
-    sha256 "81eb6b7196d6d5c6c62b61be3f73107ba224f2a621fffd4cf63e9303fb62d025"
+    url "https://github.com/tty-pt/libhyle/releases/download/v1.3.0/libhyle-1.3.0-brew-arm64.tar.gz"
+    sha256 "a73f22f64f34274b8c987360c42179c654a873803df7f3e32b8d31da8a141e80"
   else
-    url "https://github.com/tty-pt/libhyle/releases/download/v1.2.0/libhyle-1.2.0-brew-x86_64.tar.gz"
-    sha256 "6af0f5b95885b615ec45188e26b834b6756cebb3c64567e7bedd41cea0312b80"
+    url "https://github.com/tty-pt/libhyle/releases/download/v1.3.0/libhyle-1.3.0-brew-x86_64.tar.gz"
+    sha256 "706b497c2858462bc25c67a43be2aa689816d9d96b73b595d499621eee51091f"
   end
-  version "1.2.0"
+  version "1.3.0"
   depends_on "libqmap"
   depends_on "libstoma"
 
