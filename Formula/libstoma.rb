@@ -3,10 +3,10 @@ class Libstoma < Formula
   homepage "https://github.com/tty-pt/libstoma"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libstoma/releases/download/v1.0.0/libstoma-1.0.0-brew-arm64.tar.gz"
-    sha256 "274f2b147bbb1c9cacf25022792a4b63697bdd0b46fc5280bc783c8433e63d9d"
+    sha256 "5a1f9b1db00849e835802a081d818949c2dc8b2739d5f87f65dbe6a717e252d1"
   else
     url "https://github.com/tty-pt/libstoma/releases/download/v1.0.0/libstoma-1.0.0-brew-x86_64.tar.gz"
-    sha256 "63e744a7bbbdb9e8e42a1b925e73eb55d1e92786a9db70e9c981b9f3c5be6e46"
+    sha256 "6416a3310bfb85a8c854be3dcde5270bf6fc5d99f93b9180e678f8494b6b6052"
   end
   version "1.0.0"
   depends_on "libqmap"
