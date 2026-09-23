@@ -3,14 +3,14 @@ class AxilAuth < Formula
   homepage "https://github.com/tty-pt/axil-auth"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/axil-auth/releases/download/v1.1.0/axil-auth-1.1.0-brew-arm64.tar.gz"
-    sha256 "c226a22b229d1fb526d304d90c550cc6cffe407f252a7622280e743e5944f89e"
+    sha256 "4cfcbb61b40b9d95f34b2799a5358da3a956b15216b64a80e42c5d3c2ad099a3"
   else
     url "https://github.com/tty-pt/axil-auth/releases/download/v1.1.0/axil-auth-1.1.0-brew-x86_64.tar.gz"
-    sha256 "ee33106b7641e7d3ccff562c3897c3821a3703d18e76e8c49b84e9820fa5a375"
+    sha256 "7ae99d2a1d183c74fced5385e7ba8fc17735c5ce6027e2f3f065f369e606d3fb"
   end
   version "1.1.0"
   depends_on "axil"
-  depends_on "libqmap"
+  depends_on "libcorm"
   depends_on "libxylem"
 
   def install
