@@ -3,13 +3,13 @@ class Libxylem < Formula
   homepage "https://github.com/tty-pt/libxylem"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libxylem/releases/download/v1.4.0/libxylem-1.4.0-brew-arm64.tar.gz"
-    sha256 "7346d7ee19b02f7dae15f191d0d5e13659d135575a28475a8be3977b5becf888"
+    sha256 "a4de1baf1802b07359f8618dd3abb36a966ed2a1ee22c17fb2611b20befe6845"
   else
     url "https://github.com/tty-pt/libxylem/releases/download/v1.4.0/libxylem-1.4.0-brew-x86_64.tar.gz"
-    sha256 "4b74c88d49787266c3cbf43098e19a5b3014fb6b3b19e74e42bca1ea0b27b307"
+    sha256 "d31b3e6b55b20c89c3a1cf0cc240b14bc3ba9beea6243cd254d19994dea6135d"
   end
   version "1.4.0"
-  depends_on "libqmap"
+  depends_on "libcorm"
 
   def install
     prefix.install Dir["*"]
