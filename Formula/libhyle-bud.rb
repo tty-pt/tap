@@ -3,10 +3,10 @@ class LibhyleBud < Formula
   homepage "https://github.com/tty-pt/libhyle-bud"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libhyle-bud/releases/download/v1.0.0/libhyle-bud-1.0.0-brew-arm64.tar.gz"
-    sha256 "4253ff894a3878a3b61f178997e2a4fc744202c696e3e33f2f6373ec7ce34170"
+    sha256 "eda08454aa0d7d6cc5af4700e1fefdaeb62fde0bca763ddaa36d84881e46e792"
   else
     url "https://github.com/tty-pt/libhyle-bud/releases/download/v1.0.0/libhyle-bud-1.0.0-brew-x86_64.tar.gz"
-    sha256 "4c5e711a04aba878d7e5bcbfb9ac2c4b59fd8d09d33a202c6e4244d19811e77f"
+    sha256 "548ed96cf70fd236d18ad08d42c14c360794a655f6ad0bfec05555c09d882849"
   end
   version "1.0.0"
   depends_on "libqsys"
