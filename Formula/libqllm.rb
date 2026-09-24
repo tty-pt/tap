@@ -2,18 +2,20 @@ class Libqllm < Formula
   desc "libqllm binary package"
   homepage "https://github.com/tty-pt/libqllm"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libqllm/releases/download/v1.0.0/libqllm-1.0.0-brew-arm64.tar.gz"
-    sha256 "7495cbdab2c55fb6694c43d4f8a90d144d75a4594067b628e16c4c25461e4769"
+    url "https://github.com/tty-pt/libqllm/releases/download/v1.1.0/libqllm-1.1.0-brew-arm64.tar.gz"
+    sha256 "8178c3ecce2fb2c2e62079c60b940dea65115c414aa31d8730ff143e613e4233"
   else
-    url "https://github.com/tty-pt/libqllm/releases/download/v1.0.0/libqllm-1.0.0-brew-x86_64.tar.gz"
-    sha256 "5c48c90bf8ab2658c42a6a7e436e17e2242926af5abca4733dafa10d6120f96f"
+    url "https://github.com/tty-pt/libqllm/releases/download/v1.1.0/libqllm-1.1.0-brew-x86_64.tar.gz"
+    sha256 "29eb9f61b86e022b972345eb0f4b711e022d4a993a0095620e3ace02c2714697"
   end
-  version "1.0.0"
+  version "1.1.0"
+  depends_on "axil"
+  depends_on "libxylem"
   depends_on "libqsys"
-  depends_on "libqmap"
-  depends_on "libndc"
+  depends_on "libcorm"
   depends_on "cmake"
   depends_on "libomp"
+  depends_on "json-c"
 
   def install
     prefix.install Dir["*"]
