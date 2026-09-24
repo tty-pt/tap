@@ -2,14 +2,14 @@ class Libqgl < Formula
   desc "libqgl binary package"
   homepage "https://github.com/tty-pt/libqgl"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libqgl/releases/download/v1.0.2/libqgl-1.0.2-brew-arm64.tar.gz"
-    sha256 "c618d5404792d418bac0deee6e737236b24eb0e1b77a81445c6d797208bca70b"
+    url "https://github.com/tty-pt/libqgl/releases/download/v1.1.0/libqgl-1.1.0-brew-arm64.tar.gz"
+    sha256 "70ea14c55fad993f26e11d31f43a4d7fc534be1ce3b8e533598082f12dffb54e"
   else
-    url "https://github.com/tty-pt/libqgl/releases/download/v1.0.2/libqgl-1.0.2-brew-x86_64.tar.gz"
-    sha256 "8e78fdbe630e3cafdad72aca359ebbdc6880b8a3c115e98cb51ed8811f26a64b"
+    url "https://github.com/tty-pt/libqgl/releases/download/v1.1.0/libqgl-1.1.0-brew-x86_64.tar.gz"
+    sha256 "2891079073878f93e57fb94fb2be3a09fa5ea0d6728ff5dd2726e4935932b454"
   end
-  version "1.0.2"
-  depends_on "libqmap"
+  version "1.1.0"
+  depends_on "libcorm"
   depends_on "glfw"
   depends_on "libpng"
 
