@@ -3,10 +3,10 @@ class Axil < Formula
   homepage "https://github.com/tty-pt/axil"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/axil/releases/download/v1.4.1/axil-1.4.1-brew-arm64.tar.gz"
-    sha256 "ff0a5075436498123e29b7082f8771df9700236e6d5c6aec3825fb6b49bbeb7d"
+    sha256 "1c17a4f9342d93c3ef4850b6e48b57b5690e590a2baf3101cf5017def2bf968c"
   else
     url "https://github.com/tty-pt/axil/releases/download/v1.4.1/axil-1.4.1-brew-x86_64.tar.gz"
-    sha256 "5f799d0cbe240347b7f3ca885c9d803138369939e090f406ea14b99b16fabce8"
+    sha256 "06e9f615b520db10b0ae1b29ea39b0a7cec212d6891c6e2720b7b8b3e072ff7f"
   end
   version "1.4.1"
   depends_on "libcorm"
