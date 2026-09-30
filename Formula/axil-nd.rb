@@ -3,10 +3,10 @@ class AxilNd < Formula
   homepage "https://github.com/tty-pt/axil-nd"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/axil-nd/releases/download/v1.0.0/axil-nd-1.0.0-brew-arm64.tar.gz"
-    sha256 "fa44e66e778a3bdbc58ee775d2f23c5d50c1673690164d179a68207bfeacd39c"
+    sha256 "bebb8e91c193dc40edad5fc23118aa386ea0fa1d4596e52b7ef329428e016c04"
   else
     url "https://github.com/tty-pt/axil-nd/releases/download/v1.0.0/axil-nd-1.0.0-brew-x86_64.tar.gz"
-    sha256 "a591a6887ef9b64d331ad1e2c54193e32cf0dda0e718b1219ffd742c6b960d75"
+    sha256 "1db8ea4b02f4ad40d66697b31c2fc24358f3135fc069e86dc76d53ccc4d2b142"
   end
   version "1.0.0"
   depends_on "axil"
