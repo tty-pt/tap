@@ -3,10 +3,10 @@ class NdLevel < Formula
   homepage "https://github.com/tty-pt/nd-level"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/nd-level/releases/download/v1.0.1/nd-level-1.0.1-brew-arm64.tar.gz"
-    sha256 "9ded7f74f94a8885e1dbcc8fd4958f783f191c3f50a60799ed6f301cd04c3860"
+    sha256 "2fc4219020866d1d4d8ef5f4fc46c106aca9216c33ac692bc9cf10e3cf2f86be"
   else
     url "https://github.com/tty-pt/nd-level/releases/download/v1.0.1/nd-level-1.0.1-brew-x86_64.tar.gz"
-    sha256 "d2a5c56e03655f427ff44135ab1cdc8148ccc6610a0e6310370df3a065f98ef2"
+    sha256 "cd331f83dab8f73a609a3360357130f1fef8bfcac5dabd487301eaf781eddbfb"
   end
   version "1.0.1"
   depends_on "axil-nd"
