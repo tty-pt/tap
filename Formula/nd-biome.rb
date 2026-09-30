@@ -3,10 +3,10 @@ class NdBiome < Formula
   homepage "https://github.com/tty-pt/nd-biome"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/nd-biome/releases/download/v1.0.1/nd-biome-1.0.1-brew-arm64.tar.gz"
-    sha256 "94fdb68d776c8cd50e4a02c508e47ef7d818dd0328257a3a2f64242b17cdd5b3"
+    sha256 "d3639e49f80b10932081ec2bcef9e14c01f510bc17fc39c5adc7efd85dde9b23"
   else
     url "https://github.com/tty-pt/nd-biome/releases/download/v1.0.1/nd-biome-1.0.1-brew-x86_64.tar.gz"
-    sha256 "0de3e68e5191db5f2df9dffb6b72a85560af4ea9af267d5af10a14aeca96f2e2"
+    sha256 "af96fc07f19b1490d5dcfe7f0d957fc2752db89b00469405fdf7a65ee3b47890"
   end
   version "1.0.1"
   depends_on "axil-nd"
