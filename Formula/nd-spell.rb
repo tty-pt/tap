@@ -2,13 +2,13 @@ class NdSpell < Formula
   desc "nd-spell binary package"
   homepage "https://github.com/tty-pt/nd-spell"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/nd-spell/releases/download/v1.0.2/nd-spell-1.0.2-brew-arm64.tar.gz"
-    sha256 "7b3c6a8310cf9164e000c3cb6d60a3b79cbcf3ebfeb5a654dd976da4502ae6a6"
+    url "https://github.com/tty-pt/nd-spell/releases/download/v1.0.6/nd-spell-1.0.6-brew-arm64.tar.gz"
+    sha256 "45ba18be871f4af00f52e783f01300e71e44e80760e13444a9a131ba99122ab6"
   else
-    url "https://github.com/tty-pt/nd-spell/releases/download/v1.0.2/nd-spell-1.0.2-brew-x86_64.tar.gz"
-    sha256 "7254eb1589225e461dea85252a7160612b2c276beddff4ecff2b8a7c84b29888"
+    url "https://github.com/tty-pt/nd-spell/releases/download/v1.0.6/nd-spell-1.0.6-brew-x86_64.tar.gz"
+    sha256 "82964add9c4e52bb7ff925a83ab4e6d7b40bd335b8a15e302aff7c709401bac9"
   end
-  version "1.0.2"
+  version "1.0.6"
   depends_on "axil-nd"
   depends_on "libxylem"
   depends_on "nd-attr"
