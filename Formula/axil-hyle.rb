@@ -3,10 +3,10 @@ class AxilHyle < Formula
   homepage "https://github.com/tty-pt/axil-hyle"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/axil-hyle/releases/download/v1.0.0/axil-hyle-1.0.0-brew-arm64.tar.gz"
-    sha256 "869fe0969487a27a6adc32b781cce3731f397338457cf5439e79c740693e65ee"
+    sha256 "b18f2e1cf62e306c0fff5d6121d0fac2ecfb43ae2629913ac78686806836bb4e"
   else
     url "https://github.com/tty-pt/axil-hyle/releases/download/v1.0.0/axil-hyle-1.0.0-brew-x86_64.tar.gz"
-    sha256 "6e691dab63da67c3cf29f7aad3e4256a794ce2faa135464eba9dd42e74079e4f"
+    sha256 "6a04fb6e3ad572239a24a97080c558c2e46d13911f7275b511ae33a2388a91fd"
   end
   version "1.0.0"
   depends_on "axil"
