@@ -2,13 +2,13 @@ class Libxylem < Formula
   desc "libxylem binary package"
   homepage "https://github.com/tty-pt/libxylem"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libxylem/releases/download/v1.4.2/libxylem-1.4.2-brew-arm64.tar.gz"
-    sha256 "213693b28a014c42d8ca4256f1689c7f3b19e365d775ac98a2f5e8140f978f0a"
+    url "https://github.com/tty-pt/libxylem/releases/download/v1.5.0/libxylem-1.5.0-brew-arm64.tar.gz"
+    sha256 "84535ce908ee25a5347ab3488da714cb20a3a48a02c51a15e77e5e992ee53366"
   else
-    url "https://github.com/tty-pt/libxylem/releases/download/v1.4.2/libxylem-1.4.2-brew-x86_64.tar.gz"
-    sha256 "cacd3ee277554625d5ee9deadc1e63c6d9942ff70d27e1c879c855a7d2139882"
+    url "https://github.com/tty-pt/libxylem/releases/download/v1.5.0/libxylem-1.5.0-brew-x86_64.tar.gz"
+    sha256 "02b190628716fa5891b92c212b8d35c27ff4050987684c5edcbf19946b208a73"
   end
-  version "1.4.2"
+  version "1.5.0"
   depends_on "libcorm"
 
   def install
