@@ -2,13 +2,13 @@ class AxilNd < Formula
   desc "axil-nd binary package"
   homepage "https://github.com/tty-pt/axil-nd"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/axil-nd/releases/download/v1.1.0/axil-nd-1.1.0-brew-arm64.tar.gz"
-    sha256 "511f14821c09662cbab50b7a4f1c2e58c29085a4b07cc1dd6d591b17d6cb979b"
+    url "https://github.com/tty-pt/axil-nd/releases/download/v1.2.0/axil-nd-1.2.0-brew-arm64.tar.gz"
+    sha256 "96f110dfe7dfa31a4f557a86a9f6f43aada346c91d9f03f0ec787f6cb6ffbaec"
   else
-    url "https://github.com/tty-pt/axil-nd/releases/download/v1.1.0/axil-nd-1.1.0-brew-x86_64.tar.gz"
-    sha256 "0ba8de62891222d04e360554638d2f490602cd5cc77f5c9ec34ec7f1427d9c67"
+    url "https://github.com/tty-pt/axil-nd/releases/download/v1.2.0/axil-nd-1.2.0-brew-x86_64.tar.gz"
+    sha256 "690025a36eec310aa45bdbebdb68cc67e715b00a3400e7f0c5fb8a5aff940bfc"
   end
-  version "1.1.0"
+  version "1.2.0"
   depends_on "axil"
   depends_on "libcorm"
   depends_on "libxylem"
