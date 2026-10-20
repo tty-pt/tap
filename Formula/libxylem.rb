@@ -3,10 +3,10 @@ class Libxylem < Formula
   homepage "https://github.com/tty-pt/libxylem"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libxylem/releases/download/v1.5.0/libxylem-1.5.0-brew-arm64.tar.gz"
-    sha256 "84535ce908ee25a5347ab3488da714cb20a3a48a02c51a15e77e5e992ee53366"
+    sha256 "3527611472351c71c0bdc1b45c627bf1c7ed1f7d9fd8c86fc178148e0bb49965"
   else
     url "https://github.com/tty-pt/libxylem/releases/download/v1.5.0/libxylem-1.5.0-brew-x86_64.tar.gz"
-    sha256 "02b190628716fa5891b92c212b8d35c27ff4050987684c5edcbf19946b208a73"
+    sha256 "4d1ffc89348b9e97c863577ae1f35c3ab37fed3972ab16705e38ece27163a68a"
   end
   version "1.5.0"
   depends_on "libcorm"
