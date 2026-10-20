@@ -2,14 +2,15 @@ class Libsepal < Formula
   desc "libsepal binary package"
   homepage "https://github.com/tty-pt/libsepal"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libsepal/releases/download/v1.0.0/libsepal-1.0.0-brew-arm64.tar.gz"
-    sha256 "8d95d1d1d4d0dbf1803f820a9bdd3b83a71490a0726ac5eb5dda56eafb3d0331"
+    url "https://github.com/tty-pt/libsepal/releases/download/v1.1.0/libsepal-1.1.0-brew-arm64.tar.gz"
+    sha256 "03e31e2ad231e4709b2c1a510134377479394a55de817e3917bbb07a05f5a997"
   else
-    url "https://github.com/tty-pt/libsepal/releases/download/v1.0.0/libsepal-1.0.0-brew-x86_64.tar.gz"
-    sha256 "068bbf245e35b22a8f43a9789ebe75818571bc5ea2a79a8305b49d24e4585b17"
+    url "https://github.com/tty-pt/libsepal/releases/download/v1.1.0/libsepal-1.1.0-brew-x86_64.tar.gz"
+    sha256 "3f31e579d43ba9c2282d506fcaa509517708640eddae302ec28146ea32c57826"
   end
-  version "1.0.0"
+  version "1.1.0"
   depends_on "libcorm"
+  depends_on "xxhash"
 
   def install
     prefix.install Dir["*"]
