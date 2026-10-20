@@ -2,15 +2,15 @@ class Libhyle < Formula
   desc "libhyle binary package"
   homepage "https://github.com/tty-pt/libhyle"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libhyle/releases/download/v1.3.0/libhyle-1.3.0-brew-arm64.tar.gz"
-    sha256 "046fb62099ef0acd5e4d1907b064521d9d0a88e04402d2ae76d4e84ff65abd56"
+    url "https://github.com/tty-pt/libhyle/releases/download/v1.4.0/libhyle-1.4.0-brew-arm64.tar.gz"
+    sha256 "a39d4ea12529c17dc6e11f14b227cebbb1e68e343f846717f41a117573f280f8"
   else
-    url "https://github.com/tty-pt/libhyle/releases/download/v1.3.0/libhyle-1.3.0-brew-x86_64.tar.gz"
-    sha256 "bee3238633d414036e3edd7fe63ad5930a4ab32f61a61215812743c941e01d7f"
+    url "https://github.com/tty-pt/libhyle/releases/download/v1.4.0/libhyle-1.4.0-brew-x86_64.tar.gz"
+    sha256 "4723070ec9da20d974a8b7ba2ee88a33f58f3f83bc2d9ae9cc183ee74f85a9a8"
   end
-  version "1.3.0"
+  version "1.4.0"
   depends_on "libcorm"
-  depends_on "libstoma"
+  depends_on "liblemma"
 
   def install
     prefix.install Dir["*"]
