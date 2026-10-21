@@ -3,10 +3,10 @@ class Liblemma < Formula
   homepage "https://github.com/tty-pt/liblemma"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/liblemma/releases/download/v1.0.0/liblemma-1.0.0-brew-arm64.tar.gz"
-    sha256 "83c0634021bc75c3146b4218b40d4d9deb3ebba31c8ac49d90484f6232b78315"
+    sha256 "b59c995ce3f9f008c060a36b2e9db61065961aa9b42c910ee175a0535fa72113"
   else
     url "https://github.com/tty-pt/liblemma/releases/download/v1.0.0/liblemma-1.0.0-brew-x86_64.tar.gz"
-    sha256 "5434008d02ee8bd2f1feb5b1034b63612b5bc034a2884d8e433f25ed256ba73f"
+    sha256 "9515164e6bab9f38a5d8dc45552331020a67a34204ccc688227cca656d09f217"
   end
   version "1.0.0"
   depends_on "libcorm"
