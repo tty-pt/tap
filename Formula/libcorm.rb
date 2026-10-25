@@ -2,13 +2,13 @@ class Libcorm < Formula
   desc "libcorm binary package"
   homepage "https://github.com/tty-pt/libcorm"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libcorm/releases/download/v2.0.0/libcorm-2.0.0-brew-arm64.tar.gz"
-    sha256 "4b7314ee42bf6bfdb9df5e79f73f3054354e071b1e5a2a5ed483c4539dcbf0d3"
+    url "https://github.com/tty-pt/libcorm/releases/download/v2.0.1/libcorm-2.0.1-brew-arm64.tar.gz"
+    sha256 "ee5f09b929074916659f99d089a611f727d37b131f13dd8b8a8c69d82217d183"
   else
-    url "https://github.com/tty-pt/libcorm/releases/download/v2.0.0/libcorm-2.0.0-brew-x86_64.tar.gz"
-    sha256 "ab2ccf6105fb545e07c9399ad4505a416fa8972f7562aea6517263a1e2c12c5d"
+    url "https://github.com/tty-pt/libcorm/releases/download/v2.0.1/libcorm-2.0.1-brew-x86_64.tar.gz"
+    sha256 "f90f6f8734ee4ef9557de382dc90d173caba046dff049031a7b4757430aadae9"
   end
-  version "2.0.0"
+  version "2.0.1"
   depends_on "libqsys"
   depends_on "xxhash"
 
