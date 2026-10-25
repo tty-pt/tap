@@ -2,13 +2,13 @@ class Libbud < Formula
   desc "libbud binary package"
   homepage "https://github.com/tty-pt/libbud"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libbud/releases/download/v1.0.1/libbud-1.0.1-brew-arm64.tar.gz"
-    sha256 "ee468306581319655fac1e86333cf67a9ac0ce131c3f4e30c49abcebe9b02104"
+    url "https://github.com/tty-pt/libbud/releases/download/v1.0.2/libbud-1.0.2-brew-arm64.tar.gz"
+    sha256 "16f84146e1b3b31e4a88155ca32be0ec0439c49ce0b38f27346123c140e38e7e"
   else
-    url "https://github.com/tty-pt/libbud/releases/download/v1.0.1/libbud-1.0.1-brew-x86_64.tar.gz"
-    sha256 "e5c421abfa4e3d10026f50ebed0990e9655cea6afc4ca666f9bc5bf1a0cf1579"
+    url "https://github.com/tty-pt/libbud/releases/download/v1.0.2/libbud-1.0.2-brew-x86_64.tar.gz"
+    sha256 "59a354b4619922b50cb2719cf8955d6614cdf36822d7af21d09268a2155bc221"
   end
-  version "1.0.1"
+  version "1.0.2"
 
   def install
     prefix.install Dir["*"]
