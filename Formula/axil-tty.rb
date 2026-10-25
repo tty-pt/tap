@@ -2,13 +2,13 @@ class AxilTty < Formula
   desc "axil-tty binary package"
   homepage "https://github.com/tty-pt/axil-tty"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/axil-tty/releases/download/v1.3.2/axil-tty-1.3.2-brew-arm64.tar.gz"
-    sha256 "7c676363cb10072ac8a7d88b9f155cb20737d840fdfc8865d37fbb765c40db60"
+    url "https://github.com/tty-pt/axil-tty/releases/download/v1.4.1/axil-tty-1.4.1-brew-arm64.tar.gz"
+    sha256 "e2c3091cdc0436f76985c1b79aa3c3e0b6f17b8ce7b2e22b769731d6a3699756"
   else
-    url "https://github.com/tty-pt/axil-tty/releases/download/v1.3.2/axil-tty-1.3.2-brew-x86_64.tar.gz"
-    sha256 "c8bf407a470bc1fc2270f0053212545dfa53787b94e8f96023cdbe659309efef"
+    url "https://github.com/tty-pt/axil-tty/releases/download/v1.4.1/axil-tty-1.4.1-brew-x86_64.tar.gz"
+    sha256 "ab992534b702cf3e137f93cd5726863716196efbaf1b9d9c48d93d28df2cf998"
   end
-  version "1.3.2"
+  version "1.4.1"
   depends_on "axil"
   depends_on "libxylem"
 
