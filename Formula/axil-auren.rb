@@ -3,10 +3,10 @@ class AxilAuren < Formula
   homepage "https://github.com/tty-pt/axil-auren"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/axil-auren/releases/download/v1.3.0/axil-auren-1.3.0-brew-arm64.tar.gz"
-    sha256 "55af4a87d34a7dbb1c94fed339d085286a3ce3dd9776cfe7a100367d85bab4c1"
+    sha256 "19dde0b069322f694a097d29ac4db1ef7943e97ab77581b24ac2dc081eb496d0"
   else
     url "https://github.com/tty-pt/axil-auren/releases/download/v1.3.0/axil-auren-1.3.0-brew-x86_64.tar.gz"
-    sha256 "a2180982f6fc86633df39e3fcb9c20055293bf9e600ebcc5f3d84b9547769d19"
+    sha256 "b8912c248acbe6a6e5e1ffcece5e127e49e38eb99711b842d1018f0a103b09bb"
   end
   version "1.3.0"
   depends_on "axil"
