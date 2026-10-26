@@ -2,13 +2,13 @@ class Libsepal < Formula
   desc "libsepal binary package"
   homepage "https://github.com/tty-pt/libsepal"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libsepal/releases/download/v1.2.0/libsepal-1.2.0-brew-arm64.tar.gz"
-    sha256 "2ae8d737779010d3d9d17cf47c817398bb3510ce0f82b6ca52fc318aff8508bf"
+    url "https://github.com/tty-pt/libsepal/releases/download/v1.3.0/libsepal-1.3.0-brew-arm64.tar.gz"
+    sha256 "0ff5dae05a9e301e4032d078f94188acf3bd84020c7604479cef4fe173646a18"
   else
-    url "https://github.com/tty-pt/libsepal/releases/download/v1.2.0/libsepal-1.2.0-brew-x86_64.tar.gz"
-    sha256 "629866099abc40fbafbbe0f77b57a7e9b0cad7e9ea98ce891c27c5274ea625dc"
+    url "https://github.com/tty-pt/libsepal/releases/download/v1.3.0/libsepal-1.3.0-brew-x86_64.tar.gz"
+    sha256 "fb96ee8ecac20ace07ea696607f01e729cac79b2c7eb99e5cac046ced7418594"
   end
-  version "1.2.0"
+  version "1.3.0"
   depends_on "libcorm"
   depends_on "xxhash"
 
