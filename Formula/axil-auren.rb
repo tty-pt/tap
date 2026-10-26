@@ -2,13 +2,13 @@ class AxilAuren < Formula
   desc "axil-auren binary package"
   homepage "https://github.com/tty-pt/axil-auren"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/axil-auren/releases/download/v1.3.0/axil-auren-1.3.0-brew-arm64.tar.gz"
-    sha256 "19dde0b069322f694a097d29ac4db1ef7943e97ab77581b24ac2dc081eb496d0"
+    url "https://github.com/tty-pt/axil-auren/releases/download/v1.3.1/axil-auren-1.3.1-brew-arm64.tar.gz"
+    sha256 "3c67edc4a3cde57eb9a12227c97f67d9a6bd72c7cf8692bfc002493f8f18687c"
   else
-    url "https://github.com/tty-pt/axil-auren/releases/download/v1.3.0/axil-auren-1.3.0-brew-x86_64.tar.gz"
-    sha256 "b8912c248acbe6a6e5e1ffcece5e127e49e38eb99711b842d1018f0a103b09bb"
+    url "https://github.com/tty-pt/axil-auren/releases/download/v1.3.1/axil-auren-1.3.1-brew-x86_64.tar.gz"
+    sha256 "e639d30250911e6091a1a37e54be2d13f4a799e7561378979e9b59228c74aed3"
   end
-  version "1.3.0"
+  version "1.3.1"
   depends_on "axil"
   depends_on "libxylem"
   depends_on "libqsys"
