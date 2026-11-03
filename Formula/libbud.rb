@@ -3,10 +3,10 @@ class Libbud < Formula
   homepage "https://github.com/tty-pt/libbud"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libbud/releases/download/v1.2.0/libbud-1.2.0-brew-arm64.tar.gz"
-    sha256 "a4716ac09eb42e471386a7b0bc8d91fd96465d29d3d6579483a8f607edf8f7d1"
+    sha256 "051cbcebd8edf2e4840ab148c3b2b68afd4eb408f2b91aafe510a1db99792f67"
   else
     url "https://github.com/tty-pt/libbud/releases/download/v1.2.0/libbud-1.2.0-brew-x86_64.tar.gz"
-    sha256 "78d3338020d718cfafcbe29bede62c622e23e4c247b34abdf236d9c1e3939d1c"
+    sha256 "74a0d93d9319aa382d4d7b45306162f072c4f68b48c27fd9d3f6995ab2537168"
   end
   version "1.2.0"
 
