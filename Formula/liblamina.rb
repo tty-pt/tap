@@ -2,13 +2,14 @@ class Liblamina < Formula
   desc "liblamina binary package"
   homepage "https://github.com/tty-pt/liblamina"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/liblamina/releases/download/v1.0.0/liblamina-1.0.0-brew-arm64.tar.gz"
-    sha256 "ac4cc2263f968ecc55f2b4b3601bc828af459280bcd9beed7b49f048b2aee2a3"
+    url "https://github.com/tty-pt/liblamina/releases/download/v1.0.1/liblamina-1.0.1-brew-arm64.tar.gz"
+    sha256 "02dfbf45b919c759c2aa9c7f5147049d314b3d9908327475ec46c90254b5be4e"
   else
-    url "https://github.com/tty-pt/liblamina/releases/download/v1.0.0/liblamina-1.0.0-brew-x86_64.tar.gz"
-    sha256 "035e50a5a22f1b5ca43e36d6420ea0a837c0ffe2aaa536a74c86af0221ca620d"
+    url "https://github.com/tty-pt/liblamina/releases/download/v1.0.1/liblamina-1.0.1-brew-x86_64.tar.gz"
+    sha256 "c1127ccd7ab282c7e2b414a5467642601bacbef5ab553811df64d30ddd05de9d"
   end
-  version "1.0.0"
+  version "1.0.1"
+  depends_on "libstele"
   depends_on "libcorm"
   depends_on "glfw"
   depends_on "libpng"
