@@ -2,14 +2,14 @@ class LibhyleSource < Formula
   desc "libhyle-source binary package"
   homepage "https://github.com/tty-pt/libhyle-source"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libhyle-source/releases/download/v1.3.0/libhyle-source-1.3.0-brew-arm64.tar.gz"
-    sha256 "3396059947426fb0bfdb03382bfc43b54b14da885a39e025a9b6a0b057a1f7c5"
+    url "https://github.com/tty-pt/libhyle-source/releases/download/v1.3.1/libhyle-source-1.3.1-brew-arm64.tar.gz"
+    sha256 "90bc59b4f9c3a985eb13d00feb86aa3e61aaefa8699bf7cd5c0e67f0b8b83536"
   else
-    url "https://github.com/tty-pt/libhyle-source/releases/download/v1.3.0/libhyle-source-1.3.0-brew-x86_64.tar.gz"
-    sha256 "94e8464431640f97bc89204bc44250c07981e3995b3c917e5044cd51086cef23"
+    url "https://github.com/tty-pt/libhyle-source/releases/download/v1.3.1/libhyle-source-1.3.1-brew-x86_64.tar.gz"
+    sha256 "7c6be7b4f884d89cfad9943d6ce9f3b7a4dd82a4eb4f85dcb257f5d8e0a9e264"
   end
-  version "1.3.0"
-  depends_on "libqsys"
+  version "1.3.1"
+  depends_on "libstele"
   depends_on "libcorm"
   depends_on "liblemma"
   depends_on "libhyle"
