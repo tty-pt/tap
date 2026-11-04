@@ -2,13 +2,13 @@ class Libcorm < Formula
   desc "libcorm binary package"
   homepage "https://github.com/tty-pt/libcorm"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libcorm/releases/download/v2.2.3/libcorm-2.2.3-brew-arm64.tar.gz"
-    sha256 "b398f5cbe76ba3debb60063e797ac991e62aeccd3c4563ab202610a689088deb"
+    url "https://github.com/tty-pt/libcorm/releases/download/v2.2.4/libcorm-2.2.4-brew-arm64.tar.gz"
+    sha256 "df483d395466148d7b4ac5538a024b123590ed0dac59552e98584aa2b8596231"
   else
-    url "https://github.com/tty-pt/libcorm/releases/download/v2.2.3/libcorm-2.2.3-brew-x86_64.tar.gz"
-    sha256 "f000ee9f13da5ea76dc8c1227bbdbd678ba97bbd5407f7d4422c5e902eec5a59"
+    url "https://github.com/tty-pt/libcorm/releases/download/v2.2.4/libcorm-2.2.4-brew-x86_64.tar.gz"
+    sha256 "6ff1826291350c06b009b73078b58da1a385f36f0042a420b165f35757afac1b"
   end
-  version "2.2.3"
+  version "2.2.4"
   depends_on "libstele"
   depends_on "xxhash"
 
