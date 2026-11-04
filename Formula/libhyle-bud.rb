@@ -2,14 +2,14 @@ class LibhyleBud < Formula
   desc "libhyle-bud binary package"
   homepage "https://github.com/tty-pt/libhyle-bud"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libhyle-bud/releases/download/v1.1.0/libhyle-bud-1.1.0-brew-arm64.tar.gz"
-    sha256 "35fa5b08ab3c5c48b0e5f4f4e94839be8020fb77ae040e17dd6f7bf8d8956ead"
+    url "https://github.com/tty-pt/libhyle-bud/releases/download/v1.1.1/libhyle-bud-1.1.1-brew-arm64.tar.gz"
+    sha256 "ebac476d61fef99f44f6f15b5ccd9fa3e98757c1b11bac317c16584a09746622"
   else
-    url "https://github.com/tty-pt/libhyle-bud/releases/download/v1.1.0/libhyle-bud-1.1.0-brew-x86_64.tar.gz"
-    sha256 "a7bf15fec71ef037c4ad421471c2c9084bc7593fabd9fe509bacf889679524de"
+    url "https://github.com/tty-pt/libhyle-bud/releases/download/v1.1.1/libhyle-bud-1.1.1-brew-x86_64.tar.gz"
+    sha256 "505bcd1c1af73311729b38899f45f99e52f0f284b43a74856ae09c6d2df231e8"
   end
-  version "1.1.0"
-  depends_on "libqsys"
+  version "1.1.1"
+  depends_on "libstele"
   depends_on "libcorm"
   depends_on "libhyle"
   depends_on "libbud"
