@@ -3,10 +3,10 @@ class Liblamina < Formula
   homepage "https://github.com/tty-pt/liblamina"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/liblamina/releases/download/v1.0.1/liblamina-1.0.1-brew-arm64.tar.gz"
-    sha256 "02dfbf45b919c759c2aa9c7f5147049d314b3d9908327475ec46c90254b5be4e"
+    sha256 "394de1605fe1651dd7aa091df9adeb8d29055e9abd542225a981571bc716c742"
   else
     url "https://github.com/tty-pt/liblamina/releases/download/v1.0.1/liblamina-1.0.1-brew-x86_64.tar.gz"
-    sha256 "c1127ccd7ab282c7e2b414a5467642601bacbef5ab553811df64d30ddd05de9d"
+    sha256 "223b2b4e3a22c19fc1730fbfa67b32dc4cef9a216192752c2c51f71e9acb6e07"
   end
   version "1.0.1"
   depends_on "libstele"
