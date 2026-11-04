@@ -3,10 +3,10 @@ class Libcorm < Formula
   homepage "https://github.com/tty-pt/libcorm"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libcorm/releases/download/v2.2.4/libcorm-2.2.4-brew-arm64.tar.gz"
-    sha256 "df483d395466148d7b4ac5538a024b123590ed0dac59552e98584aa2b8596231"
+    sha256 "5d12a19c3e20421c3156101ce390b5b62933b766e2a0aae64aa8880dc1ef04f3"
   else
     url "https://github.com/tty-pt/libcorm/releases/download/v2.2.4/libcorm-2.2.4-brew-x86_64.tar.gz"
-    sha256 "6ff1826291350c06b009b73078b58da1a385f36f0042a420b165f35757afac1b"
+    sha256 "30053e19e076fe1747963f605b283d6654e08118d916c4727e0a7c382290508c"
   end
   version "2.2.4"
   depends_on "libstele"
