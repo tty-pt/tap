@@ -3,10 +3,10 @@ class Libstele < Formula
   homepage "https://github.com/tty-pt/libstele"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libstele/releases/download/v1.6.1/libstele-1.6.1-brew-arm64.tar.gz"
-    sha256 "af8e1a5ffb03bc2cf99a720a6aa616bd36bdf4c50446382c0762967d3b828b92"
+    sha256 "b5dc26e46001d6fb73c1ba3e3388fe48329c9de7c6beea112cc71098a7544224"
   else
     url "https://github.com/tty-pt/libstele/releases/download/v1.6.1/libstele-1.6.1-brew-x86_64.tar.gz"
-    sha256 "68c9d4ecfbba01cbd5ca9224d5d7646fdcca49bfacffcd2248c0442fd14e7ff3"
+    sha256 "1fa5ba024f9df229f751ddc89c0d41f29c103f4e47690ece04c99efb1f0d75ed"
   end
   version "1.6.1"
 
