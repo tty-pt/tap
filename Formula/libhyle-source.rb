@@ -3,10 +3,10 @@ class LibhyleSource < Formula
   homepage "https://github.com/tty-pt/libhyle-source"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/libhyle-source/releases/download/v1.4.0/libhyle-source-1.4.0-brew-arm64.tar.gz"
-    sha256 "03e4db117463f3b82efdfc59b9421f5c5173df985a41440a38bd9f8c0ac43c22"
+    sha256 "9afe964da80e8d71cf788f1b8febe7fffcc3240544bc483b24be0ef6a77616ae"
   else
     url "https://github.com/tty-pt/libhyle-source/releases/download/v1.4.0/libhyle-source-1.4.0-brew-x86_64.tar.gz"
-    sha256 "c49fa1f66e9077eed21ff0a18be882a471772517a3fbecaa6780bad656155b48"
+    sha256 "4963a1cf71d7e1d30e3c646423348fc0aef3826e7738025cd7244e9a6693092c"
   end
   version "1.4.0"
   depends_on "libstele"
