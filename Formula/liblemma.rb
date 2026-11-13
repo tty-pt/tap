@@ -2,13 +2,13 @@ class Liblemma < Formula
   desc "liblemma binary package"
   homepage "https://github.com/tty-pt/liblemma"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/liblemma/releases/download/v1.3.1/liblemma-1.3.1-brew-arm64.tar.gz"
-    sha256 "5d6570901f6bbe3c420db14c4a966a6bfcea8c8e8fe61742e4a3b1aa8a981f30"
+    url "https://github.com/tty-pt/liblemma/releases/download/v1.3.2/liblemma-1.3.2-brew-arm64.tar.gz"
+    sha256 "88ee18ca8fa36839399da6e21249f83ed07bfed644b9210bac186ff7d537aafd"
   else
-    url "https://github.com/tty-pt/liblemma/releases/download/v1.3.1/liblemma-1.3.1-brew-x86_64.tar.gz"
-    sha256 "cff7908cca3ca0bcf4b7c239cffa5c0223a177ee66c53a788eda77028db023c5"
+    url "https://github.com/tty-pt/liblemma/releases/download/v1.3.2/liblemma-1.3.2-brew-x86_64.tar.gz"
+    sha256 "8b9eeaf65884cede21c7cce60cb4bbc8659eaac5092b8ba5ac5654b3a1598cc4"
   end
-  version "1.3.1"
+  version "1.3.2"
   depends_on "libcorm"
 
   def install
