@@ -2,15 +2,17 @@ class AxilTty < Formula
   desc "axil-tty binary package"
   homepage "https://github.com/tty-pt/axil-tty"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/axil-tty/releases/download/v1.5.0/axil-tty-1.5.0-brew-arm64.tar.gz"
-    sha256 "ca833777ec24edcc556c10a31916d012caea4c6d8a5c0ac32be4899eec4ec8ad"
+    url "https://github.com/tty-pt/axil-tty/releases/download/v1.6.0/axil-tty-1.6.0-brew-arm64.tar.gz"
+    sha256 "9d4b444063ae4bc086328d1436be6f4fd697e3ea06639f13294c3d6a5f9119d5"
   else
-    url "https://github.com/tty-pt/axil-tty/releases/download/v1.5.0/axil-tty-1.5.0-brew-x86_64.tar.gz"
-    sha256 "e3abb2551375c49fc446caa5a9b8bfab3d51554ea54245100156f81a7da84d81"
+    url "https://github.com/tty-pt/axil-tty/releases/download/v1.6.0/axil-tty-1.6.0-brew-x86_64.tar.gz"
+    sha256 "4f52c41f132afa0c50798bdea93d0394932fd0a40eb871637e24d3dad9d5121e"
   end
-  version "1.5.0"
+  version "1.6.0"
   depends_on "axil"
+  depends_on "libcorm"
   depends_on "libxylem"
+  depends_on "libstele"
 
   def install
     prefix.install Dir["*"]
