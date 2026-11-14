@@ -2,13 +2,13 @@ class Libjoint < Formula
   desc "libjoint binary package"
   homepage "https://github.com/tty-pt/libjoint"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libjoint/releases/download/v1.7.3/libjoint-1.7.3-brew-arm64.tar.gz"
-    sha256 "a3320c9ae79f470e0d6dd1ba44acb7c6ca97c48b0737533047783a8681cfb2c4"
+    url "https://github.com/tty-pt/libjoint/releases/download/v1.8.0/libjoint-1.8.0-brew-arm64.tar.gz"
+    sha256 "b8d29fa8f284ed5d7feff78d80152e073befa140d4e63ceab486b7c279384116"
   else
-    url "https://github.com/tty-pt/libjoint/releases/download/v1.7.3/libjoint-1.7.3-brew-x86_64.tar.gz"
-    sha256 "fd928dc7f3967a77bb3557c31a0daf9fb31b7cafeb378af912cb2ae542095b2e"
+    url "https://github.com/tty-pt/libjoint/releases/download/v1.8.0/libjoint-1.8.0-brew-x86_64.tar.gz"
+    sha256 "1b0551d93368feb0df3ad777e5e2e55545d81eea8e07a7cff099fbd2343e7829"
   end
-  version "1.7.3"
+  version "1.8.0"
   depends_on "libcorm"
 
   def install
