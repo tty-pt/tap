@@ -3,10 +3,10 @@ class AxilAuth < Formula
   homepage "https://github.com/tty-pt/axil-auth"
   if Hardware::CPU.arm?
     url "https://github.com/tty-pt/axil-auth/releases/download/v1.3.2/axil-auth-1.3.2-brew-arm64.tar.gz"
-    sha256 "478d32609fad5aff9c62c5e7f59579776b642d6109bae88a4bd877c14a108ee4"
+    sha256 "9e812e4c0166cff0a56df367af77df6b480518550b03af32cb17a653e303e3e2"
   else
     url "https://github.com/tty-pt/axil-auth/releases/download/v1.3.2/axil-auth-1.3.2-brew-x86_64.tar.gz"
-    sha256 "86210393a55ecf1212b787c24deed41ca9debd7a335273b1a5fc3ceb94fa2a24"
+    sha256 "2b59ce0d112797c89a882759755794a2e252a835d35db1e15e2ad32faef0b6b1"
   end
   version "1.3.2"
   depends_on "axil"
