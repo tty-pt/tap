@@ -2,13 +2,13 @@ class Libstele < Formula
   desc "libstele binary package"
   homepage "https://github.com/tty-pt/libstele"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libstele/releases/download/v1.7.0/libstele-1.7.0-brew-arm64.tar.gz"
-    sha256 "2ed62e0bd0bf7504432fc95133989e5f395c241abd03a325fa194e52d2f89b3e"
+    url "https://github.com/tty-pt/libstele/releases/download/v1.7.1/libstele-1.7.1-brew-arm64.tar.gz"
+    sha256 "073e786a1328c47f364406c0e7c0ea4993cb8cd690532a3c110231c41f18514f"
   else
-    url "https://github.com/tty-pt/libstele/releases/download/v1.7.0/libstele-1.7.0-brew-x86_64.tar.gz"
-    sha256 "716c507e1fb980d87a7b4992d4b8a8ce6c2e6e2a3df8ac63354ab333861e3c03"
+    url "https://github.com/tty-pt/libstele/releases/download/v1.7.1/libstele-1.7.1-brew-x86_64.tar.gz"
+    sha256 "681d6a1a76c81f67c54936833472cd49faff2cd2996e6ee3dc77b4ad09098ef7"
   end
-  version "1.7.0"
+  version "1.7.1"
 
   def install
     prefix.install Dir["*"]
