@@ -2,13 +2,13 @@ class Libislet < Formula
   desc "libislet binary package"
   homepage "https://github.com/tty-pt/libislet"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/libislet/releases/download/v1.6.0/libislet-1.6.0-brew-arm64.tar.gz"
-    sha256 "0b9a7494e30cd7b01de70b86c86961be5d556467a6f1c8eede197a1f6f7aee09"
+    url "https://github.com/tty-pt/libislet/releases/download/v1.6.1/libislet-1.6.1-brew-arm64.tar.gz"
+    sha256 "e93ede1d6012f177fada5d2ab0312f303b0a2a4c5e12cb9c92410bed64dd312b"
   else
-    url "https://github.com/tty-pt/libislet/releases/download/v1.6.0/libislet-1.6.0-brew-x86_64.tar.gz"
-    sha256 "c4571201f09d83b1bec90f9928972522b4b8046a265ea43933730dd050b70aba"
+    url "https://github.com/tty-pt/libislet/releases/download/v1.6.1/libislet-1.6.1-brew-x86_64.tar.gz"
+    sha256 "0911c63c3c965b7e8f7cdbeed84447ff527caad1ea0824b07042568cb1f4dcad"
   end
-  version "1.6.0"
+  version "1.6.1"
   depends_on "libstele"
   depends_on "libcorm"
   depends_on "xxhash"
