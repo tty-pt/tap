@@ -2,13 +2,13 @@ class AxilHyle < Formula
   desc "axil-hyle binary package"
   homepage "https://github.com/tty-pt/axil-hyle"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/axil-hyle/releases/download/v1.1.2/axil-hyle-1.1.2-brew-arm64.tar.gz"
-    sha256 "df9983fffb337c19e5121d5ec012ed940ad7c4a709b9a461b2e232f3818cfcd5"
+    url "https://github.com/tty-pt/axil-hyle/releases/download/v1.1.3/axil-hyle-1.1.3-brew-arm64.tar.gz"
+    sha256 "ada3f4643e0404ce01136f3749f4e082f920217b14559c5fe5f18d6488ebe16a"
   else
-    url "https://github.com/tty-pt/axil-hyle/releases/download/v1.1.2/axil-hyle-1.1.2-brew-x86_64.tar.gz"
-    sha256 "a58d5d3f1c0b7fb623daf2f5140e6146a601897e6a744324e937f81af9bbe8f1"
+    url "https://github.com/tty-pt/axil-hyle/releases/download/v1.1.3/axil-hyle-1.1.3-brew-x86_64.tar.gz"
+    sha256 "0c34d6bdfc8ac694265861ac998e3bad5102e249a1b5a56fb1015d49e8263fac"
   end
-  version "1.1.2"
+  version "1.1.3"
   depends_on "axil"
   depends_on "libstele"
   depends_on "libcorm"
