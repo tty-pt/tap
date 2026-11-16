@@ -2,13 +2,13 @@ class Axil < Formula
   desc "axil binary package"
   homepage "https://github.com/tty-pt/axil"
   if Hardware::CPU.arm?
-    url "https://github.com/tty-pt/axil/releases/download/v1.8.2/axil-1.8.2-brew-arm64.tar.gz"
-    sha256 "5c78fb3bd035e626ebd0b893836c776b0890fb9d2260260e91c5dff48af5c6f0"
+    url "https://github.com/tty-pt/axil/releases/download/v1.8.3/axil-1.8.3-brew-arm64.tar.gz"
+    sha256 "2c8b07b5a8e6a52e623d124588e95dfe81c6a23eba91f7eb56934951240d3315"
   else
-    url "https://github.com/tty-pt/axil/releases/download/v1.8.2/axil-1.8.2-brew-x86_64.tar.gz"
-    sha256 "8372d79fd2ee16c9866f8d7c9ac7726f857e047869ea9766531649a4a05684cf"
+    url "https://github.com/tty-pt/axil/releases/download/v1.8.3/axil-1.8.3-brew-x86_64.tar.gz"
+    sha256 "7e02ab78ae724c39694079b7b833dfb919811ecfde6924a0e76db0eec20b8208"
   end
-  version "1.8.2"
+  version "1.8.3"
   depends_on "libcorm"
   depends_on "libxylem"
   depends_on "openssl"
